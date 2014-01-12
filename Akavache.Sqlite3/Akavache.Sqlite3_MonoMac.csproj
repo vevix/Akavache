@@ -20,6 +20,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\Mono\</OutputPath>
+    <IntermediateOutputPath>obj\Debug\Mono\</IntermediateOutputPath>
     <DefineConstants>DEBUG;TRACE; MONO</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -29,6 +30,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\Mono\</OutputPath>
+    <IntermediateOutputPath>obj\Release\Mono\</IntermediateOutputPath>
     <DefineConstants>TRACE; MONO</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -82,10 +84,6 @@
   </Target>
   -->
   <ItemGroup>
-    <ProjectReference Include="..\Akavache.Portable\Akavache.Portable_MonoMac.csproj">
-      <Project>{3EF05CA8-ED19-489C-AF42-11CFB65F7AE7}</Project>
-      <Name>Akavache.Portable_MonoMac</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Akavache\Akavache_MonoMac.csproj">
       <Project>{3EF05CA8-ED19-489C-AF42-71C4B6507AE7}</Project>
       <Name>Akavache_MonoMac</Name>
